@@ -17,7 +17,7 @@ cd "$DIST_DIR"
 
 # Name of your executable or script inside dist
 # Change this if needed
-EXECUTABLE="./aws_cli_login_v4"
+EXECUTABLE="./aws_cli_login"
 
 # Check if executable exists
 if [ ! -f "$EXECUTABLE" ]; then
