@@ -17,7 +17,7 @@ cd /d "%DIST_DIR%" || (
 )
 
 REM Name of your executable inside dist
-set "EXECUTABLE=aws_cli_login_v3.exe"
+set "EXECUTABLE=aws_cli_login.exe"
 
 REM Check if executable exists
 if not exist "%DIST_DIR%\%EXECUTABLE%" (
@@ -27,3 +27,4 @@ if not exist "%DIST_DIR%\%EXECUTABLE%" (
 
 REM Run the executable with all passed arguments
 "%DIST_DIR%\%EXECUTABLE%" %*
+
