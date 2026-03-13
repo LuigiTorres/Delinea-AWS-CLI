@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-16"?>
 <secrettype xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <name>Amazon IAM Key</name>
+  <name>Amazon IAM Key & Role</name>
   <active>true</active>
   <fields>
     <field isexpirationfield="false">
@@ -148,3 +148,4 @@
   <validatepasswordrequirementsonedit>false</validatepasswordrequirementsonedit>
   <permissions />
 </secrettype>
+
